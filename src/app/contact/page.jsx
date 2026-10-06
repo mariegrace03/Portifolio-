@@ -95,7 +95,7 @@ export default function ContactPage() {
 
                 {showSuccess && (
                   <div className="p-4 bg-green-100 text-green-800 rounded-xl border border-green-200 text-center">
-                    ✓ Thank you! Your message has been sent successfully. I'll get back to you soon.
+                    ✓ Thank you! Your message has been sent successfully. I&apos;ll get back to you soon.
                   </div>
                 )}
               </form>
