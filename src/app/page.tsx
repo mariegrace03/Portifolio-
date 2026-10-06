@@ -96,16 +96,6 @@ const timeline = [
     ],
   },
   {
-    period: "Jul 2026 - Sep 2026",
-    role: "Software Engineer Intern",
-    place: "Rwanda ICT Chamber",
-    points: [
-      "Worked as a Software Engineer Intern contributing to software projects.",
-      "Developed and maintained features across frontend and backend.",
-      "Collaborated with the team using Git and GitHub.",
-    ],
-  },
-  {
     period: "Apr 2026 - Jun 2026",
     role: "Software Developer Intern",
     place: "RG Consult",

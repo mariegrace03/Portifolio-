@@ -12,18 +12,7 @@ export default function Experience() {
       items: [
         "Entered, updated, and verified records with accuracy and attention to detail.",
         "Maintained organized and consistent data for the team.",
-        "Managed time effectively while working remotely alongside an internship."
-      ]
-    },
-    {
-      date: "Jul 2026 - Sep 2026",
-      title: "Software Engineer Intern",
-      company: "Rwanda ICT Chamber",
-      desc: "Worked as a Software Engineer Intern contributing to software projects.",
-      items: [
-        "Developed and maintained features across frontend and backend.",
-        "Collaborated with the team using Git and GitHub for version control.",
-        "Applied best practices in building reliable software solutions."
+        "Managed time effectively and communicated clearly while working remotely."
       ]
     },
     {

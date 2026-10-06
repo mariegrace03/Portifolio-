@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     q: "Do you have experience working remotely?",
-    a: "Yes. I worked part-time and fully remote as a Data Entry Specialist at AZUL Tech (Aug – Sep 2026), alongside my Software Engineer internship at Rwanda ICT Chamber. This taught me to manage my time well, communicate clearly online, and deliver accurate work independently.",
+    a: "Yes. I worked part-time and fully remote as a Data Entry Specialist at AZUL Tech (Aug – Sep 2026). This taught me to manage my time well, communicate clearly online, and deliver accurate work independently.",
   },
   {
     q: "Are you comfortable working in a team?",
-    a: "Absolutely. I have worked in Agile team environments at kLab Academy as a Full-Stack Developer, at RG Consult as a Software Developer Intern, and at Rwanda ICT Chamber as a Software Engineer Intern. I collaborate using Git and GitHub for version control, follow modern development workflows, and value clear communication, shared goals, and continuous feedback within a team.",
+    a: "Absolutely. I have worked in Agile team environments at kLab Academy as a Full-Stack Developer and at RG Consult as a Software Developer Intern. I collaborate using Git and GitHub for version control, follow modern development workflows, and value clear communication, shared goals, and continuous feedback within a team.",
   },
 ];
 
