@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "Do you have experience working remotely?",
-    a: "Yes. I worked part-time and fully remote as a Data Entry Specialist at AZUL Tech (Aug – Sep 2026). This taught me to manage my time well, communicate clearly online, and deliver accurate work independently.",
+    a: "Yes. I worked part-time and fully remote as a Data Entry Specialist at AZUL Tech (Jul – Aug 2026). This taught me to manage my time well, communicate clearly online, and deliver accurate work independently.",
   },
   {
     q: "Are you comfortable working in a team?",

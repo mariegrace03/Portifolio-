@@ -86,7 +86,7 @@ const projects = [
 
 const timeline = [
   {
-    period: "Aug 2026 - Sep 2026",
+    period: "Jul 2026 - Aug 2026",
     role: "Data Entry Specialist (Part-time, Remote)",
     place: "AZUL Tech",
     points: [

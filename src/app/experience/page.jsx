@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 export default function Experience() {
   const experiences = [
     {
-      date: "Aug 2026 - Sep 2026",
+      date: "Jul 2026 - Aug 2026",
       title: "Data Entry Specialist (Part-time, Remote)",
       company: "AZUL Tech",
       desc: "Worked remotely on a part-time basis handling data entry tasks.",
