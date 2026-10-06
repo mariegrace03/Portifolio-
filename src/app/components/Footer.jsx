@@ -38,13 +38,13 @@ export default function Footer() {
             <h4 className="text-xl font-semibold mb-4">Follow Me</h4>
             <div className="flex gap-4">
               <a href="https://github.com/mariegrace03" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" className="text-2xl text-gray-400 hover:text-green-500 transition">
-                <i className="fab fa-github"></i>
+                <i className="fab fa-github" aria-hidden="true"></i>
               </a>
               <a href="https://linkedin.com/in/marie-grace-niyigena" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" className="text-2xl text-gray-400 hover:text-green-500 transition">
-                <i className="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin" aria-hidden="true"></i>
               </a>
               <a href="https://instagram.com/marie_grace_niyigena" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile" className="text-2xl text-gray-400 hover:text-green-500 transition">
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-instagram" aria-hidden="true"></i>
               </a>
             </div>
           </div>
