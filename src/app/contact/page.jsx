@@ -29,9 +29,9 @@ export default function ContactPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             <div className="space-y-4 sm:space-y-6">
-              <h2 className="text-2xl sm:text-3xl font-semibold">Let's Connect</h2>
+              <h2 className="text-2xl sm:text-3xl font-semibold">Let&apos;s Connect</h2>
               <p className="text-gray-600 leading-relaxed text-lg">
-                I'm always open to discussing new opportunities, creative projects, 
+                I&apos;m always open to discussing new opportunities, creative projects, 
                 or just having a friendly conversation about web development and design.
               </p>
 
