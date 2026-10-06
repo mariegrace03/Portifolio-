@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-3xl font-bold">NMG</h3>
             <p className="text-gray-400">
-              Frontend Developer & Designer creating clean, functional and intuitive web experiences.
+              Full Stack Developer creating clean, functional and intuitive web experiences.
             </p>
           </div>
           
