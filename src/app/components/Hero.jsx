@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 bg-linear-to-br from-gray-50 to-gray-100" id="home">
       <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
         <div className="flex-1 space-y-4 sm:space-y-6 text-center lg:text-left">
-          <p className="text-lg text-gray-600">Hello, I'm</p>
+          <p className="text-lg text-gray-600">Hello, I&apos;m</p>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900">MARIE GRACE NIYIGENA</h1>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-green-600">Frontend Developer & Designer</h2>
           <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto lg:mx-0">
