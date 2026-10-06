@@ -202,7 +202,7 @@ export default function Home() {
             </div>
 
             <div className="relative mx-auto w-full max-w-md flex justify-center">
-              <div className="absolute -inset-6 rounded-full bg-[radial-gradient(circle_at_top,_#34d399_0,_transparent_60%)] opacity-80 blur-xl" />
+              <div className="absolute -inset-6 rounded-full bg-[radial-gradient(circle_at_top,#34d399_0,transparent_60%)] opacity-80 blur-xl" />
               <div className="relative rounded-full border border-white/70 bg-white/80 p-4 shadow-2xl backdrop-blur">
                 <img
                   src="/profile.jpg"
