@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://grace-portfolio-sepia.vercel.app"),
   title: "Marie Grace Niyigena - Portfolio",
   description: "Full Stack Developer building modern, scalable, and user-focused digital products.",
 };
