@@ -29,7 +29,7 @@ export default function Projects() {
               Featured Projects
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
-              A showcase of my recent work and projects I'm proud of. Each project represents my passion for creating innovative solutions.
+              A showcase of my recent work and projects I&apos;m proud of. Each project represents my passion for creating innovative solutions.
             </p>
           </div>
 
