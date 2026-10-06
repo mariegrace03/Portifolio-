@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "How can I reach you?",
-    a: "Email: graceniyigena34@gmail.com | Phone: +250 791 168 136 | LinkedIn: linkedin.com/in/marie-grace-niyigena-14000a285 | GitHub: github.com/graceniyigena34 | Location: Gasabo District, Kigali, Rwanda. You can also use the Contact form on this portfolio.",
+    a: "Email: graceniyigena34@gmail.com | Phone: +250 791 168 136 | LinkedIn: linkedin.com/in/marie-grace-niyigena-14000a285 | GitHub: github.com/mariegrace03 | Location: Gasabo District, Kigali, Rwanda. You can also use the Contact form on this portfolio.",
   },
   {
     q: "Are you comfortable working in a team?",
