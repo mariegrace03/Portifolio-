@@ -16,6 +16,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://grace-portfolio-sepia.vercel.app"),
   title: "Marie Grace Niyigena - Portfolio",
   description: "Full Stack Developer building modern, scalable, and user-focused digital products.",
+  authors: [{ name: "Marie Grace Niyigena" }],
+  keywords: ["Marie Grace Niyigena", "Full Stack Developer", "Next.js", "React", "Node.js", "Portfolio", "Kigali", "Rwanda"],
 };
 
 export default function RootLayout({
