@@ -20,3 +20,26 @@ Personal portfolio website showcasing my work as a Full Stack Developer: project
 - TypeScript and JavaScript
 - Font Awesome icons
 - Deployed on [Vercel](https://vercel.com)
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the site.
+
+### Scripts
+
+| Command             | Description                      |
+| ------------------- | -------------------------------- |
+| `npm run dev`       | Start the development server     |
+| `npm run build`     | Create a production build        |
+| `npm run start`     | Serve the production build       |
+| `npm run lint`      | Run ESLint                       |
+| `npm run typecheck` | Check types with the TS compiler |
+
+## Deployment
+
+The site is deployed on Vercel and redeploys automatically on every push to `main`.
