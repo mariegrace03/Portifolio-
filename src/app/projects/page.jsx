@@ -22,10 +22,10 @@ export default function Projects() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-emerald-50">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-gray-50 to-emerald-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 sm:mb-16">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-emerald-600 to-emerald-800 text-transparent bg-clip-text mb-4">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-linear-to-r from-emerald-600 to-emerald-800 text-transparent bg-clip-text mb-4">
               Featured Projects
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
@@ -44,7 +44,7 @@ export default function Projects() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {filtered.map((project, i) => (
               <div key={i} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className={`h-48 ${project.image ? '' : `bg-gradient-to-br ${project.gradient}`} flex items-center justify-center relative group`} style={project.image ? {backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center'} : {}}>
+                <div className={`h-48 ${project.image ? '' : `bg-linear-to-br ${project.gradient}`} flex items-center justify-center relative group`} style={project.image ? {backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center'} : {}}>
                   {!project.image && <i className={`fas ${project.category === 'web' ? 'fa-laptop-code' : project.category === 'mobile' ? 'fa-mobile-alt' : 'fa-paint-brush'} text-6xl text-white opacity-80`}></i>}
                   <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="px-6 py-2 bg-white text-gray-900 rounded-lg font-medium hover:bg-gray-100 transition">
