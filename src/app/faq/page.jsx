@@ -54,7 +54,7 @@ export default function FAQPage() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-emerald-50">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-gray-50 to-emerald-50">
         <div className="max-w-4xl mx-auto">
 
           {/* Header */}
@@ -98,7 +98,7 @@ export default function FAQPage() {
           </div>
 
           {/* CTA */}
-          <div className="mt-14 text-center bg-gradient-to-r from-emerald-600 to-emerald-800 rounded-3xl p-10 text-white">
+          <div className="mt-14 text-center bg-linear-to-r from-emerald-600 to-emerald-800 rounded-3xl p-10 text-white">
             <h2 className="text-2xl sm:text-3xl font-bold mb-3">Still have questions?</h2>
             <p className="text-emerald-50 mb-6 text-lg">
               Feel free to reach out — I respond within 24 hours.
