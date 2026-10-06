@@ -387,7 +387,7 @@ export default function Home() {
         </section>
 
         <section id="contact" className="px-4 py-20 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto rounded-[2rem] bg-slate-900 px-6 py-14 sm:px-10 text-center text-white">
+          <div className="max-w-7xl mx-auto rounded-4xl bg-slate-900 px-6 py-14 sm:px-10 text-center text-white">
             <p className="section-kicker section-kicker-dark">Let&apos;s Build Together</p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight">Need a full stack developer for your next product?</h2>
             <p className="mx-auto mt-4 max-w-2xl text-slate-200 text-lg">
