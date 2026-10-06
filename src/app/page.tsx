@@ -247,7 +247,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex-shrink-0 flex justify-center">
+              <div className="shrink-0 flex justify-center">
                 <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
                   <div className="w-full h-full rounded-full overflow-hidden shadow-2xl">
                     <img
