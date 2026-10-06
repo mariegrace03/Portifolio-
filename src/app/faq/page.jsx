@@ -81,7 +81,7 @@ export default function FAQPage() {
                   <span className="font-semibold text-gray-900 text-base sm:text-lg pr-4">
                     {faq.q}
                   </span>
-                  <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-transform duration-300 ${openIndex === i ? "bg-emerald-600 rotate-45" : "bg-gray-100"}`}>
+                  <span className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-transform duration-300 ${openIndex === i ? "bg-emerald-600 rotate-45" : "bg-gray-100"}`}>
                     <i className={`fas fa-plus text-sm ${openIndex === i ? "text-white" : "text-gray-600"}`}></i>
                   </span>
                 </button>
