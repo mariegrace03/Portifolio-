@@ -58,7 +58,7 @@ export default function ContactPage() {
             <div className="bg-white p-6 sm:p-8 lg:p-10 rounded-3xl shadow-xl">
               <div className="text-center mb-6 sm:mb-8">
                 <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Send Message</h2>
-                <p className="text-gray-600">Fill out the form below and I'll get back to you as soon as possible.</p>
+                <p className="text-gray-600">Fill out the form below and I&apos;ll get back to you as soon as possible.</p>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
