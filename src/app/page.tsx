@@ -214,7 +214,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="px-4 py-20 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100">
+        <section id="about" className="px-4 py-20 sm:px-6 lg:px-8 bg-linear-to-br from-gray-50 to-gray-100">
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
               <div className="flex-1 space-y-6">
