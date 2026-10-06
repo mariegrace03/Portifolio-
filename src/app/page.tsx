@@ -179,7 +179,7 @@ export default function Home() {
               </div>
 
               <div className="flex items-center gap-5 justify-center lg:justify-start pt-2 text-2xl text-slate-700">
-                <a href="https://github.com/graceniyigena34" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600 transition">
+                <a href="https://github.com/mariegrace03" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600 transition">
                   <i className="fa-brands fa-github" />
                 </a>
                 <a href="https://www.linkedin.com/in/marie-grace-niyigena-14000a285" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600 transition">
