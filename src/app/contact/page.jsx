@@ -43,7 +43,7 @@ export default function ContactPage() {
                   { icon: "fa-clock", title: "Response Time", info: "Within 24 hours" }
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition">
-                    <div className="w-14 h-14 bg-linear-to-br from-emerald-600 to-emerald-800 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <div className="w-14 h-14 bg-linear-to-br from-emerald-600 to-emerald-800 rounded-xl flex items-center justify-center shrink-0">
                       <i className={`fas ${item.icon} text-white text-xl`}></i>
                     </div>
                     <div>
