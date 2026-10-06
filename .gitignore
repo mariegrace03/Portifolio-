@@ -1,0 +1,19 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# personal / unused local files
+Grace CV (1).pdf
+passport picture Grace mine .jpg
+E-commerce image.png
+developer dashboard.png
+.claude/

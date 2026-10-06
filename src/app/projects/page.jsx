@@ -1,0 +1,75 @@
+"use client";
+import { useState } from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+export default function Projects() {
+  const [filter, setFilter] = useState("all");
+
+  const projects = [
+    { category: "web", title: "EcoTrack Waste Collection System", desc: "Full-stack web and mobile waste collection management platform with scheduling, real-time tracking, service request workflows, and business listing features. Connected web and mobile apps.", tech: ["Next.js", "TypeScript", "React Native", "REST APIs"], link: "https://waste-collection-management-system.vercel.app/", image: "/ecotrack.svg" },
+    { category: "web", title: "E-Commerce Platform", desc: "A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics dashboard.", tech: ["React", "TypeScript", "Tailwind"], link: "https://e-commerce-vxgc-lake.vercel.app", image: "/ecommerce-image.png" },
+    { category: "web", title: "Developer Dashboard", desc: "Developer Dashboard is a modern, responsive web application. It offers a clean interface for viewing and managing essential metrics via a sidebar navigation, top navbar, analytics / stats cards, and interactive charts.", tech: ["React", "TypeScript", "Tailwind"], link: "https://developer-dashboard-2cfv.vercel.app", image: "/developer-dashboard.png" },
+    { category: "web", title: "Task Management App", desc: "A collaborative task management application with real-time updates, team collaboration features, and project tracking.", tech: ["Next.js", "TypeScript", "Tailwind", "Socket.io"], link: "#", gradient: "from-purple-600 to-purple-800" },
+    { category: "web", title: "Financial Tracker", desc: "The Financial Tracker is a web application designed to help users manage personal finances efficiently. Users can track income and expenses, categorize transactions, and view summaries.", tech: ["Next.js", "TypeScript", "Tailwind", "Firebase"], link: "https://capstone-personal-financial-tracker-psi.vercel.app", image: "/financial-tracker.png" },
+    { category: "mobile", title: "Banking Mobile App", desc: "Mobile banking app where users can send money to the bank, withdraw funds, and chat live with bank support. Built as a cross-platform app for Android and iOS.", tech: ["React Native", "Expo", "Mobile UI", "Chat Support"], link: "#", image: "/banking-app.svg" },
+    { category: "mobile", title: "Weather Mobile App", desc: "A beautiful weather application with location-based forecasts, interactive maps, and personalized weather alerts.", tech: ["React Native", "Redux", "Weather API", "Maps"], link: "#", gradient: "from-pink-600 to-red-600" },
+    { category: "design", title: "Brand Identity Design", desc: "Complete brand identity design including logo, color palette, typography, and brand guidelines for a tech startup.", tech: ["Figma", "Adobe CC", "Branding", "UI/UX"], link: "#", gradient: "from-yellow-600 to-pink-600" }
+  ];
+
+  const filtered = filter === "all" ? projects : projects.filter(p => p.category === filter);
+
+  return (
+    <div>
+      <Navbar />
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-emerald-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-emerald-600 to-emerald-800 text-transparent bg-clip-text mb-4">
+              Featured Projects
+            </h1>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
+              A showcase of my recent work and projects I'm proud of. Each project represents my passion for creating innovative solutions.
+            </p>
+          </div>
+
+          <div className="flex justify-center gap-2 sm:gap-4 mb-8 sm:mb-12 flex-wrap px-4">
+            {["all", "web", "mobile", "design"].map(f => (
+              <button key={f} onClick={() => setFilter(f)} className={`px-4 sm:px-6 py-2 text-sm sm:text-base rounded-full border-2 border-emerald-600 font-medium transition ${filter === f ? 'bg-emerald-600 text-white' : 'text-emerald-600 hover:bg-emerald-600 hover:text-white'}`}>
+                {f === "all" ? "All Projects" : f === "web" ? "Web Apps" : f === "mobile" ? "Mobile" : "Design"}
+              </button>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            {filtered.map((project, i) => (
+              <div key={i} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                <div className={`h-48 ${project.image ? '' : `bg-gradient-to-br ${project.gradient}`} flex items-center justify-center relative group`} style={project.image ? {backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center'} : {}}>
+                  {!project.image && <i className={`fas ${project.category === 'web' ? 'fa-laptop-code' : project.category === 'mobile' ? 'fa-mobile-alt' : 'fa-paint-brush'} text-6xl text-white opacity-80`}></i>}
+                  <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="px-6 py-2 bg-white text-gray-900 rounded-lg font-medium hover:bg-gray-100 transition">
+                      {project.category === 'design' ? 'View Design' : 'Live Demo'}
+                    </a>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed">{project.desc}</p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.tech.map((t, j) => (
+                      <span key={j} className="px-3 py-1 bg-gray-100 text-emerald-600 rounded-full text-sm">{t}</span>
+                    ))}
+                  </div>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition">
+                    {project.category === 'design' ? 'View Design' : project.category === 'mobile' ? 'Download' : 'Live Demo'}
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <Footer />
+    </div>
+  );
+}
