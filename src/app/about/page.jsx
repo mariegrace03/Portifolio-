@@ -30,7 +30,7 @@ export default function About() {
       <Navbar />
 
       {/* Hero / Summary */}
-      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-gray-50 to-gray-100">
         <div className="max-w-7xl mx-auto">
 
           {/* Top: bio + image */}
