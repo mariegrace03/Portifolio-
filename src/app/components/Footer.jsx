@@ -29,7 +29,7 @@ export default function Footer() {
             <h4 className="text-xl font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
               <li><a href="mailto:graceniyigena34@gmail.com" className="hover:text-green-500 transition">graceniyigena34@gmail.com</a></li>
-              <li>+250 791 168 136</li>
+              <li><a href="tel:+250791168136" className="hover:text-green-500 transition">+250 791 168 136</a></li>
               <li>Kigali, Rwanda</li>
             </ul>
           </div>
