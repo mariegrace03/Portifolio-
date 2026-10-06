@@ -65,7 +65,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="flex-shrink-0 flex justify-center">
+            <div className="shrink-0 flex justify-center">
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
                 <div className="w-full h-full rounded-full overflow-hidden shadow-2xl">
                   <img
@@ -136,7 +136,7 @@ export default function About() {
               <ul className="space-y-4">
                 {achievements.map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-gray-700">
-                    <i className="fas fa-trophy text-yellow-500 mt-1 flex-shrink-0"></i>
+                    <i className="fas fa-trophy text-yellow-500 mt-1 shrink-0"></i>
                     <span>{item}</span>
                   </li>
                 ))}
