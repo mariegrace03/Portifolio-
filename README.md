@@ -12,3 +12,11 @@ Personal portfolio website showcasing my work as a Full Stack Developer: project
 - **Projects** — web and mobile projects with live links
 - **Experience** — internships and roles at Rwanda ICT Chamber, AZUL Tech, RG Consult, kLab Academy, and SheCanCode
 - **Services**, **Blog**, **FAQ**, and **Contact**
+
+## Tech Stack
+
+- [Next.js 16](https://nextjs.org) (App Router) with React 19
+- [Tailwind CSS v4](https://tailwindcss.com)
+- TypeScript and JavaScript
+- Font Awesome icons
+- Deployed on [Vercel](https://vercel.com)
