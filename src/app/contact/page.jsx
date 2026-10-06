@@ -23,7 +23,7 @@ export default function ContactPage() {
               Get In Touch
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
-              Have a project in mind or just want to chat? I'd love to hear from you. Let's create something amazing together!
+              Have a project in mind or just want to chat? I&apos;d love to hear from you. Let&apos;s create something amazing together!
             </p>
           </div>
 
